@@ -15,7 +15,7 @@ Bring up the network and start the back-end
 
 ```
 $ cd fabric-fyp/test-network
-$ sudo bash network.sh up createChannel -ca\
+$ sudo bash network.sh up createChannel -ca
 $ sudo bash network.sh deployCC -ccn mychaincode -ccp ../asset-transfer-basic/chaincode-javascript -ccv 1 -ccl javascript
 ```
 The back-end should start without errors
